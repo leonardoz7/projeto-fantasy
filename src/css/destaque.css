@@ -1,0 +1,131 @@
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.platforms {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platform img {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.platform span{
+    color: white;
+}
+.highlights {
+    padding: 20px;
+}
+
+.highlights h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.game-grid .game {
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.game-grid span{
+    color: white;
+}
+
+.game-grid img {
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.game {
+
+    padding: 10px;
+    text-align: center;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer-section li {
+    margin-bottom: 5px;
+}
+
+footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 0.8em;
+    margin-top: 20px;
+}

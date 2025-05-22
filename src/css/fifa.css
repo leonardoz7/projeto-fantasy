@@ -1,0 +1,46 @@
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: #222;
+}
+
+main .preco {
+    font-size: 1.2em;
+    color: green;
+    font-weight: bold;
+}
+
+main .descricao {
+    margin: 10px 0;
+    color: #555;
+}
+
+main button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer nav a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+}
